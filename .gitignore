@@ -1,0 +1,35 @@
+.pyc
+.project
+.pydevproject
+input_data/precomputed/
+*.pyc
+*.py~
+src/nicholasTest.py
+auxiliary/
+main_*
+.settings/org.eclipse.ltk.core.refactoring.prefs
+dempy/.swo
+dempy/.swp
+tools/circos/data/all.txt
+tools/circos/data/cap.col.txt
+tools/circos/data/cap.row.txt
+tools/circos/data/cells.txt
+tools/circos/data/col.txt
+tools/circos/data/karyotype.txt
+tools/circos/data/row.txt
+tools/circos/data/segmentlabel.txt
+JFMA_THC_run1-2_circos.svg
+tools/circos/img/tableview copy.png
+tools/circos/img/tableview copy.svg
+tools/circos/img/tableview.png
+tools/circos/img/tableview.svg
+tools/circos/input/Apr30_THC_run0_circos.txt
+tools/circos/input/Apr30_THC_run0_circos_float.txt
+tools/circos/img/analysis_circos.numbers/Index.zip
+tools/circos/img/analysis_circos.numbers/preview-micro.jpg
+tools/circos/img/analysis_circos.numbers/preview-web.jpg
+tools/circos/img/analysis_circos.numbers/preview.jpg
+tools/circos/img/analysis_circos.numbers/Metadata/BuildVersionHistory.plist
+tools/circos/img/analysis_circos.numbers/Metadata/DocumentIdentifier
+tools/circos/img/analysis_circos.numbers/Metadata/Properties.plist
+evaluation_postprocessing_for_paper/
