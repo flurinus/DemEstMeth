@@ -23,12 +23,10 @@
 \newpage
 \section{Copyright and conditions of use}
 This framework is distributed free of charge. We ask the user to please explicitly mention the use of the package when publishing results, using the following reference:\\
-XXX
-
+Hänseler, F.S., Molyneaux, N., and Bierlaire, M. (2015). Estimation of pedestrian origin-destination demand in train stations. Technical report TRANSP-OR 150703. Transport and Mobility Laboratory, ENAC, EPFL.\\
 This software or any component of it is not for any commercial use. Moreover it is covered under the New BSD License.\\
 \\
 DISCLAIMER\\
-\\
 Copyright (c) 2015, EPFL All rights reserved.\\
 \\
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -43,7 +41,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 \section{Goal}
 The purpose of the pedestrian demand estimation framework is to be able to predict the demand in train stations based on various data sources, all of which are relatively cheap to install in train stations. By using flow counts on specific links in the station coupled with information on the train timetables and  detailed boarding and disembarking information, this framework allows the user to predict the demand throughout the station.\\
 \section{Framework structure}
-The framework is implemented in python, with various modules corresponding to parts in the publication XXX. Some modules are case specific, whereas others are generic and can be re-used as is for different projects. A code documentation scheme is setup using Sphinx. With this it is possible to get an overview of all the functions and classes implemented in the framework. The following document contains the essential and important concepts and explanation about the modules to be able to understand and therefore use the code.\\
+The framework is implemented in python, with various modules corresponding to parts in the publication cited previously. Some modules are case specific, whereas others are generic and can be re-used as is for different projects. A code documentation scheme is setup using Sphinx. With this it is possible to get an overview of all the functions and classes implemented in the framework. The following document contains the essential and important concepts and explanation about the modules to be able to understand and therefore use the code.\\
 For confidentiality reasons, the data provided online is fictious. Generated randomly, this data set should be realistic but most certainly highly improbable, counter intuitive scenarios will most certainly take place.
 \begin{description}
 \item[main.py] The \textit{main} method of the code. This is the module to call to run the code. This module contains various information about simulation like the days or weights to give each data set. It also calls the class which loads the data, does the simulation and post-processing: \textit{DemEstimator}.
@@ -83,7 +81,6 @@ To run the whole framework, the simple call to the main is required, which will 
 For each day, many plots and txt file are produced into the output folder. The figures are produced as static images and also tikz files for easy and good quality use in tex documents. The figures include OD matrix plots, the network loaded at each time interval and the comparison of the flow between the observation and predictions for each link.\\
 Some txt files are also produced which contain the raw data to be used for other sorts of visualization if needed.
 
-MAYBE EXPLAIN IN MORE DETAIL THE RESULTS ?
 %\bibliographystyle{plainnat}
 %\bibliography{../../../Literature/Flurin_Bibliography}
 
